@@ -1,0 +1,15 @@
+.cart {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.cart button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+.cart button:hover {
+    background-color: skyblue;
+}
