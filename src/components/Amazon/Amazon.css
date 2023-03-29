@@ -4,3 +4,15 @@
     gap: 20px;
     padding: 50px;
 }
+.warning {
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}

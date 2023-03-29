@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = ({size}) => {
+const Navbar = ({size, setShow}) => {
     return (
         <nav className='nav-bar'>
-            <p>My Shop</p>
+            <p className='icon' onClick={() => setShow(true)}>My Shop</p>
             <div className='font-icon'>
-                <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon>
-                <span>{5}</span>
+                <FontAwesomeIcon icon={faCartPlus} onClick={() => setShow(false)}></FontAwesomeIcon>
+                <span>{size}</span>
             </div>
         </nav>
     );

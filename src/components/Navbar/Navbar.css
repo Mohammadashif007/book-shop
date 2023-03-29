@@ -32,3 +32,6 @@
     position: relative;
     top: -15px;
 }
+.icon {
+    cursor: pointer;
+}
